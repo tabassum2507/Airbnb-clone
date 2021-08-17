@@ -18,7 +18,7 @@ function InfoCard({ search, img, location, title, description, star, price, tota
   
         <div className="flex flex-col flex-grow pl-5">
           <div className="flex justify-between">
-            <p>Private room in center of {search}</p>
+            <p> {location}</p>
             <HeartIcon className="h-7 cursor-pointer" />
           </div>
   
